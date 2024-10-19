@@ -58,7 +58,7 @@ const FormPage = () => {
               id="name"
               required
               placeholder="eg. John Doe"
-              className="md:w-96"
+              className="md:w-96 text-black"
             />
           </div>
           <div className="flex flex-col gap-2">
@@ -69,6 +69,7 @@ const FormPage = () => {
               id="email"
               required
               placeholder="eg. john123@gmail.com"
+              className="md:w-96 text-black"
             />
           </div>
           <div className="flex flex-col gap-2">
